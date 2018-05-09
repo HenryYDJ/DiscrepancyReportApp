@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationActivity">
+
+    <TextView
+        android:id="@+id/createNewReportText"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/create_new_report"
+        app:layout_constraintEnd_toEndOf="@+id/createNewReportButton"
+        app:layout_constraintStart_toStartOf="@+id/createNewReportButton"
+        app:layout_constraintTop_toBottomOf="@+id/createNewReportButton" />
+
+    <TextView
+        android:id="@+id/myReportsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_reports"
+        app:layout_constraintEnd_toEndOf="@+id/myReportsButton"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/myReportsButton"
+        app:layout_constraintTop_toBottomOf="@+id/myReportsButton" />
+
+    <TextView
+        android:id="@+id/searchForReportsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/search_for_reports"
+        app:layout_constraintEnd_toEndOf="@+id/searchForReportsButton"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/searchForReportsButton"
+        app:layout_constraintTop_toBottomOf="@+id/searchForReportsButton" />
+
+    <TextView
+        android:id="@+id/myAccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_account"
+        app:layout_constraintEnd_toEndOf="@+id/myAccountButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/myAccountButton"
+        app:layout_constraintTop_toBottomOf="@+id/myAccountButton" />
+
+    <ImageButton
+        android:id="@+id/createNewReportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/add_report_96"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline"
+        app:layout_constraintEnd_toStartOf="@+id/verticalGuideline" />
+
+    <ImageButton
+        android:id="@+id/myReportsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/my_report_96"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalGuideline"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline" />
+
+    <ImageButton
+        android:id="@+id/searchForReportsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/search_for_report_96"
+        app:layout_constraintEnd_toStartOf="@+id/verticalGuideline"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline" />
+
+    <ImageButton
+        android:id="@+id/myAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/my_account_96"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</android.support.constraint.ConstraintLayout>

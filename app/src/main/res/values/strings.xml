@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">DiscrepancyReportApp</string>
+    <string name="part_name">Part Name</string>
+    <string name="mooney_part_number">Mooney Part Number</string>
+    <string name="date">Date</string>
+    <string name="code_number">Code Number</string>
+    <string name="vendor_number">Vendor #</string>
+    <string name="vendor_part_number">Vendor Part #</string>
+    <string name="quantity">QTY</string>
+    <string name="w_or_d">W/D</string>
+    <string name="po_or_so_number">P.O. Or S.O.</string>
+    <string name="vendor">Vendor</string>
+    <string name="model">Model</string>
+    <string name="unit_serial_number">Unit Serial Number</string>
+    <string name="aircraft_serial_number">Aircraft Serial Number</string>
+    <string name="first_next_button">Next</string>
+    <string name="title_activity_navigation_main">NavigationMain</string>
+    <string name="create_new_report">Create New Report</string>
+    <string name="my_reports">My Reports</string>
+    <string name="search_for_reports">Find a Report</string>
+    <string name="my_account">My Account</string>
 </resources>
