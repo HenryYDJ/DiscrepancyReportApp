@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CreateNewReportActivity1" />
+        <activity android:name=".CreateNewReportActivity2" />
+        <activity android:name=".SearchForReportActivity"></activity>
     </application>
 
 </manifest>

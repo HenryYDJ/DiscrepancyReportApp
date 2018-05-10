@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">DiscrepancyReportApp</string>
+    <!-- CreateNewReport Page 1 TextView Hints -->
     <string name="part_name">Part Name</string>
     <string name="mooney_part_number">Mooney Part Number</string>
     <string name="date">Date</string>
@@ -13,10 +14,15 @@
     <string name="model">Model</string>
     <string name="unit_serial_number">Unit Serial Number</string>
     <string name="aircraft_serial_number">Aircraft Serial Number</string>
+    <!-- CreateNewReport Page 1 Button Texts -->
     <string name="first_next_button">Next</string>
-    <string name="title_activity_navigation_main">NavigationMain</string>
+    <string name="first_reset_button">Reset</string>
+    <!-- Navigation Activity Icon Texts -->
     <string name="create_new_report">Create New Report</string>
     <string name="my_reports">My Reports</string>
     <string name="search_for_reports">Find a Report</string>
     <string name="my_account">My Account</string>
+    <string name="title_activity_navigation_main">NavigationMain</string>
+    <!-- SearchForReportActivity search box hint -->
+    <string name="search_box_hint">Enter Keywords to Search</string>
 </resources>
