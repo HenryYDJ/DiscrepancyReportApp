@@ -59,6 +59,7 @@ public class CreateNewReportActivity1 extends AppCompatActivity implements View.
                 startActivity(goToSecondPage);
                 break;
 
+            // Reset button clears all the text fields
             case R.id.firstResetButton:
                 partName.setText(null);
                 mooneyPartNumber.setText(null);
