@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">DiscrepancyReportApp</string>
     <!-- CreateNewReport Page 1 TextView Hints -->
+    <string name="report_number">Report #</string>
+    <string name="date">Date</string>
     <string name="part_name">Part Name</string>
     <string name="mooney_part_number">Mooney Part Number</string>
-    <string name="date">Date</string>
     <string name="code_number">Code Number</string>
     <string name="vendor_number">Vendor #</string>
     <string name="vendor_part_number">Vendor Part #</string>
